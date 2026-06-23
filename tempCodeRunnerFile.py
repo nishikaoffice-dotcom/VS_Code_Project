@@ -1,0 +1,1 @@
+with open("Practice.txt", "w") as file1:

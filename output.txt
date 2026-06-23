@@ -1,0 +1,9 @@
+10 is Even
+27 is Odd
+100 is Even
+30 is Even
+110 is Even
+141 is Odd
+120 is Even
+30 is Even
+50 is Even
