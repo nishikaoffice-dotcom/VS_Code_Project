@@ -9,7 +9,7 @@ def check_n_replace():
     with open("Practice.txt", "w") as file2:
         file2.write(new_data)
 
-#check_n_replace()
+check_n_replace()
 
 #check for offering word inthe practice txt file
 def check_for_word():
@@ -17,6 +17,7 @@ def check_for_word():
     with open("Practice.txt", "r") as file3:
         data1 = file3.read()
         if(data1.find(word)) != -1:
+            # if(word in data) another way of writing above line
             print("Found")
         else:
             print("Not Found")
