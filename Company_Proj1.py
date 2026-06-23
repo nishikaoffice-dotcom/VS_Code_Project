@@ -14,7 +14,7 @@ with open("output.txt", "w") as outfile1:
         if num.isdigit():
             n = int(num)
             if n % 2 == 0:
-                outfile1.write(f"{n} is Even no\n")
+                outfile1.write(f"{n} is Even number\n")
             else:
                 outfile1.write(f"{n} is Odd no\n")
         else:
